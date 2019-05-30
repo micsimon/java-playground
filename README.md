@@ -1,0 +1,1 @@
+its simple ... in this repo i just test some java 8+ features in a isolated scope
