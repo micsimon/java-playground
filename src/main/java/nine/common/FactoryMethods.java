@@ -1,4 +1,4 @@
-package nine;
+package nine.common;
 
 import java.util.List;
 import java.util.Map;

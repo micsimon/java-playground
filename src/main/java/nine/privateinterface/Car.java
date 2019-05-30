@@ -1,4 +1,4 @@
-package nine;
+package nine.privateinterface;
 
 public interface Car {
 

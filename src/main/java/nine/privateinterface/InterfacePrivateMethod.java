@@ -1,4 +1,4 @@
-package nine;
+package nine.privateinterface;
 
 public class InterfacePrivateMethod {
 
