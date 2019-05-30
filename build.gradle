@@ -1,0 +1,31 @@
+
+apply plugin: 'java'
+
+project.ext {
+    groupId = 'com.example.java'
+    artifactId = 'playground'
+    version = '1.0.0'
+}
+
+sourceCompatibility = project['java.lang.level']
+targetCompatibility = project['java.lang.level']
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+
+dependencies {
+
+}
+
+compileJava.options.encoding = project['file.encoding']
+compileTestJava.options.encoding = project['file.encoding']
+
+
+
+wrapper {
+    gradleVersion = '5.4.1'
+}
