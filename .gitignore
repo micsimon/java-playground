@@ -1,6 +1,7 @@
 # Build output directies
 /build
 */build
+/.gradle
 
 # IntelliJ specific files/directories
 out
